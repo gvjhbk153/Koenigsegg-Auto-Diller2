@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(0,0,0,0.385)), url(Koenigsegg_Agera_N_.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+body{
+     background-color: rgba(151, 75, 0, 0.74);
+     text-align: center;
+}
+p{
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+}
+b{
+    font-size: 20px;
+    color: rgb(156, 94, 0);
+}
+header {
+  display: flex;               
+  flex-direction: row;         
+  justify-content: flex-start; 
+  align-items: center;         
+  padding: 20px;
+  color: white;
+  gap: 30px;                  
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.menu a{
+  color: white;
+  text-decoration: none;
+}
+.menu a:hover{
+  color: rgb(207, 72, 15);
+  transition: 0.5s;
+}
+.tiles img{
+  height: 100px;
+  width: 100px;
+}

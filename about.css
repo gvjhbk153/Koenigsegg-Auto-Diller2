@@ -1,0 +1,55 @@
+body{
+    background-color: rgba(151, 75, 0, 0.74);
+}
+.logo img{
+    height: 100px;
+    width: 100px;
+}
+.menu{
+    margin: 0;
+    padding: 0;
+}
+p{
+   font-size: 60px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   text-align: center;
+
+}
+b{
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+}
+
+.cc img{
+    width: 300px;
+    height: 320px;
+    right: 0px;
+    top: 100px;
+}
+.menu a{
+  color: white;
+  text-decoration: none;
+}
+
+.main_content{
+    display: flex;
+    
+}
+.cc img{
+    position: relative;
+    right: -10px;
+    height: 555px;
+    width: 550px;
+}
+a{
+    color: orange;
+}
+p:hover{
+    color: rgb(187, 97, 0);
+    transition: 0.8s;
+}
+.menu a:hover{
+  color: rgb(207, 72, 15);
+  transition: 0.5s;
+}

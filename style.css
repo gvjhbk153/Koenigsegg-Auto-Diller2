@@ -1,0 +1,97 @@
+
+/* body
+{
+ background-image: url(koenigsegg-jesko.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+img{
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.384));
+} */
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(0,0,0,0.385)), url(regera.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  color: rgba(255, 255, 255, 0.721);
+  font-size: 48px;
+}
+header {
+  display: flex;               
+  flex-direction: row;         
+  justify-content: flex-start; 
+  align-items: center;         
+  padding: 20px;
+  color: white;
+  gap: 30px;                  
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+footer {
+  position: fixed;           /* фіксує футер */
+  bottom: 0;                 /* ставить донизу */
+  left: 0;                   /* по лівому краю */
+  padding: 20px;
+  background: #33333378;
+  color: white;
+  width: auto;               /* ширина автоматична */
+  display: flex;
+  flex-direction: column;    /* елементи вертикально всередині */
+  gap: 10px;                 /* відстань між елементами */
+}
+
+footer a {
+  color: white;
+  margin-right: 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+footer .social_contacts {
+  display: flex;            
+}
+
+footer h3, footer p {
+  margin: 0;
+}
+.social_contacts{
+    display: flex;
+    width: 10vw;
+    justify-content: space-around;
+}
+.social_contacts a:hover{
+    color: rgb(217, 105, 0);
+    transition: 0.5s;
+}
+.menu a{
+  color: white;
+  text-decoration: none;
+}
+.tiles img{
+  height: 100px;
+  width: 100px;
+}
+.menu a:hover{
+  color: rgb(207, 72, 15);
+  transition: 0.5s;
+}
+
+
+
+
+
+
+
